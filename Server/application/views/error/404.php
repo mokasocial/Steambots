@@ -1,0 +1,1 @@
+<?php echo json_encode(array("error"=> "unspecified server 404 error"));

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tactical Automata</string>
+    <string name="menu_new_game">New Game</string>
+    <string name="menu_logout">Log out</string>
+    <string name="signup">Sign up</string>
+    <string name="signup_action">Sign up!</string>
+    <string name="login">Log in</string>
+    <string name="store">Store</string>
+    <string name="profile">Profile</string>
+    <string name="manage_decks">Manage Decks</string>
+    <string name="robots">Robots</string>
+    <string name="decks">Decks</string>
+    <string name="email_hint">Email</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="boosters">Boosters</string>
+    <string name="buy_button_text">Buy with Sprockets</string>
+    <string name="loading_profile">Loading your profile...</string>
+    <string name="bad_signup_attempt">Sorry, somehow the signup attempt failed...</string>
+    <string name="creating_account">Creating your account...</string>
+    <string name="trouble_connecting_to_server">Trouble connecting to the server. Please try again.</string>
+    <string name="fill_all_fields">Please be so kind as to fill out all of the fields.</string>
+    <string name="passwords_must_match">I\'m so sorry, it seems to me as though your passwords do not match.</string>
+    <string name="must_agree_terms">I am afraid I must as you to agree to the terms and conditions.</string>
+    <string name="terms_agree">I have read and agree to the <a href="http://www.tacticalautomata.com/terms">GAME TERMS &amp; CONDITIONS</a></string>
+</resources>

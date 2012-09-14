@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/splash_img"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/default_bg">
+	
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_centerInParent="true"
+		android:gravity="right"
+		android:orientation="vertical">
+		
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:src="@android:color/transparent"
+			android:background="@drawable/ptn_bolt_light_up_repeat"
+		/>
+		
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:src="@drawable/txt_tactical_automata"
+			android:layout_marginRight="40dp"
+		/>
+		
+		<ImageView
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:src="@android:color/transparent"
+			android:background="@drawable/ptn_bolt_light_dn_repeat"
+		/>
+		
+	</LinearLayout>
+	
+	<ImageView
+		android:id="@+id/splash_robot"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:src="@drawable/splash_robot"
+		android:scaleType="fitCenter"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+	/>
+	
+</RelativeLayout>

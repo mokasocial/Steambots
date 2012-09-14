@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/store"
+		android:textSize="18pt" />
+	<Button
+		android:id="@+id/store_menu_robots"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/robots" />
+	<Button
+		android:id="@+id/store_menu_decks"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/decks"
+		android:layout_marginTop="2dp" />
+	<Button
+		android:id="@+id/store_menu_boosters"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/boosters"
+		android:layout_marginTop="2dp" />
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <layer-list xmlns:android="http://schemas.android.com/apk/res/android"> 
+    
+    <item
+    	android:id="@+id/bg_metal">
+	    <bitmap
+			android:src="@drawable/metal_bg"
+			android:dither="true"
+			android:tileMode="disabled"
+			android:gravity="center|fill"
+	     /> 
+    </item> 
+    
+    <item>
+    	<bitmap
+			android:src="@drawable/screw_1"
+			android:dither="true"
+			android:gravity="top|left"
+	     /> 
+    </item>
+    
+    <item>
+    	<bitmap
+			android:src="@drawable/screw_2"
+			android:dither="true"
+			android:gravity="top|right"
+	     /> 
+    </item>
+    
+    <item>
+    	<bitmap
+			android:src="@drawable/screw_3"
+			android:dither="true"
+			android:gravity="bottom|left"
+	     /> 
+    </item>
+    
+    <item>
+    	<bitmap
+			android:src="@drawable/screw_4"
+			android:dither="true"
+			android:gravity="bottom|right"
+	     /> 
+    </item>
+    
+</layer-list>
